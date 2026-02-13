@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="View TechOl's portfolio - 50+ successful projects across various industries">
+    <title>Portfolio | TechOl</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Poppins:wght@100;300;400;500;600;700;800;900&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="gradient-sphere sphere-1"></div>
+        <div class="gradient-sphere sphere-2"></div>
+        <div class="gradient-sphere sphere-3"></div>
+        <div class="grid-bg"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="../index.html" class="logo">
+                <span class="logo-icon">◆</span>
+                <span class="logo-text">TechOl</span>
+            </a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="../index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="portfolio.html" class="nav-link active">Portfolio</a></li>
+                <li><a href="team.html" class="nav-link">Team</a></li>
+                <li><a href="pricing.html" class="nav-link">Pricing</a></li>
+                <li><a href="contact.html" class="nav-link highlight">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="section-container">
+            <h1 class="page-title">Our Portfolio</h1>
+            <p class="page-subtitle">50+ successful projects showcasing our expertise</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Filter -->
+    <section class="portfolio-filter-section">
+        <div class="section-container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="web">Web Design</button>
+                <button class="filter-btn" data-filter="dev">Development</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+                <button class="filter-btn" data-filter="branding">Branding</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Full Portfolio Grid -->
+    <section class="full-portfolio">
+        <div class="section-container">
+            <div class="portfolio-grid-full">
+                <!-- Project 1 -->
+                <div class="portfolio-card-full glass-effect" data-category="web dev">
+                    <div class="portfolio-image-large" style="background: linear-gradient(135deg, #0066ff 0%, #00d4ff 100%);"></div>
+                    <div class="portfolio-content-full">
+                        <h3>E-Commerce Platform</h3>
+                        <p>Modern marketplace with advanced payment integration and inventory management system</p>
+                        <div class="portfolio-stats">
+                            <span class="stat">📊 50,000+ daily users</span>
+                            <span class="stat">💰 200% ROI increase</span>
+                            <span class="stat">⚡ 2.5s load time</span>
+                        </div>
+                        <div class="portfolio-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">MongoDB</span>
+                            <span class="tag">Stripe</span>
+                        </div>
+                        <a href="contact.html" class="btn btn-small">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="portfolio-card-full glass-effect" data-category="dev">
+                    <div class="portfolio-image-large" style="background: linear-gradient(135deg, #0052cc 0%, #0066ff 100%);"></div>
+                    <div class="portfolio-content-full">
+                        <h3>SaaS Analytics Dashboard</h3>
+                        <p>Real-time analytics dashboard with comprehensive data visualization and reporting tools</p>
+                        <div class="portfolio-stats">
+                            <span class="stat">📈 Real-time analytics</span>
+                            <span class="stat">👥 5000+ active users</span>
+                            <span class="stat">🚀 99.9% uptime</span>
+                        </div>
+                        <div class="portfolio-tags">
+                            <span class="tag">Vue.js</span>
+                            <span class="tag">Firebase</span>
+                            <span class="tag">Chart.js</span>
+                            <span class="tag">API</span>
+                        </div>
+                        <a href="contact.html" class="btn btn-small">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="portfolio-card-full glass-effect" data-category="mobile">
+                    <div class="portfolio-image-large" style="background: linear-gradient(135deg, #003d99 0%, #0052cc 100%);"></div>
+                    <div class="portfolio-content-full">
+                        <h3>Fitness Tracking App</h3>
+                        <p>iOS & Android app with workout tracking, nutrition planning, and community features</p>
+                        <div class="portfolio-stats">
+                            <span class="stat">📱 100,000+ downloads</span>
+                            <span class="stat">⭐ 4.8/5 rating</span>
+                            <span class="stat">🌍 10+ countries</span>
+                        </div>
+                        <div class="portfolio-tags">
+                            <span class="tag">Flutter</span>
+                            <span class="tag">Firebase</span>
+                            <span class="tag">Health Kit</span>
+                            <span class="tag">Notifications</span>
+                        </div>
+                        <a href="contact.html" class="btn btn-small">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="portfolio-card-full glass-effect" data-category="web">
+                    <div class="portfolio-image-large" style="background: linear-gradient(135deg, #00a8e1 0%, #0066ff 100%);"></div>
+                    <div class="portfolio-content-full">
+                        <h3>Corporate Portal Redesign</h3>
+                        <p>Enterprise website with CMS and marketing automation capabilities for global company</p>
+                        <div class="portfolio-stats">
+                            <span class="stat">🌐 Multi-language</span>
+                            <span class="stat">📊 +300% traffic</span>
+                            <span class="stat">🔐 Enterprise security</span>
+                        </div>
+                        <div class="portfolio-tags">
+                            <span class="tag">WordPress</span>
+                            <span class="tag">Custom CMS</span>
+                            <span class="tag">SEO</span>
+                            <span class="tag">API</span>
+                        </div>
+                        <a href="contact.html" class="btn btn-small">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="portfolio-card-full glass-effect" data-category="branding">
+                    <div class="portfolio-image-large" style="background: linear-gradient(135deg, #0033cc 0%, #0066ff 100%);"></div>
+                    <div class="portfolio-content-full">
+                        <h3>Brand Identity Design</h3>
+                        <p>Complete visual branding including logo, guidelines, and comprehensive design system</p>
+                        <div class="portfolio-stats">
+                            <span class="stat">🎨 10+ brand assets</span>
+                            <span class="stat">📐 Design system</span>
+                            <span class="stat">✨ Award-winning</span>
+                        </div>
+                        <div class="portfolio-tags">
+                            <span class="tag">Logo Design</span>
+                            <span class="tag">Branding</span>
+                            <span class="tag">Design System</span>
+                            <span class="tag">Guidelines</span>
+                        </div>
+                        <a href="contact.html" class="btn btn-small">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="portfolio-card-full glass-effect" data-category="web dev">
+                    <div class="portfolio-image-large" style="background: linear-gradient(135deg, #001a4d 0%, #003d99 100%);"></div>
+                    <div class="portfolio-content-full">
+                        <h3>Digital Marketing Campaign</h3>
+                        <p>Integrated campaigns with optimization and analytics tracking across all platforms</p>
+                        <div class="portfolio-stats">
+                            <span class="stat">📈 400% ROI</span>
+                            <span class="stat">🎯 100K+ conversions</span>
+                            <span class="stat">💡 Multi-channel</span>
+                        </div>
+                        <div class="portfolio-tags">
+                            <span class="tag">SEO</span>
+                            <span class="tag">SEM</span>
+                            <span class="tag">Analytics</span>
+                            <span class="tag">Optimization</span>
+                        </div>
+                        <a href="contact.html" class="btn btn-small">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Project 7 -->
+                <div class="portfolio-card-full glass-effect" data-category="dev mobile">
+                    <div class="portfolio-image-large" style="background: linear-gradient(135deg, #00d4ff 0%, #0066ff 100%);"></div>
+                    <div class="portfolio-content-full">
+                        <h3>Real Estate Platform</h3>
+                        <p>Full-stack property listing platform with virtual tours and AI-powered recommendations</p>
+                        <div class="portfolio-stats">
+                            <span class="stat">🏠 50,000+ listings</span>
+                            <span class="stat">🤖 AI integration</span>
+                            <span class="stat">📱 iOS & Android</span>
+                        </div>
+                        <div class="portfolio-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">3D Tours</span>
+                            <span class="tag">ML</span>
+                        </div>
+                        <a href="contact.html" class="btn btn-small">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Project 8 -->
+                <div class="portfolio-card-full glass-effect" data-category="web branding">
+                    <div class="portfolio-image-large" style="background: linear-gradient(135deg, #0088ff 0%, #0052cc 100%);"></div>
+                    <div class="portfolio-content-full">
+                        <h3>EdTech Platform</h3>
+                        <p>Online learning platform with video streaming, gamification, and progress tracking</p>
+                        <div class="portfolio-stats">
+                            <span class="stat">👨‍🎓 50,000+ students</span>
+                            <span class="stat">📚 1,000+ courses</span>
+                            <span class="stat">🎬 HD streaming</span>
+                        </div>
+                        <div class="portfolio-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Video.js</span>
+                            <span class="tag">Payment</span>
+                            <span class="tag">Analytics</span>
+                        </div>
+                        <a href="contact.html" class="btn btn-small">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="cta" class="cta-section">
+        <div class="section-container">
+            <h2>Inspired by Our Work?</h2>
+            <p>Let's create something amazing for your business</p>
+            <a href="contact.html" class="btn btn-primary btn-large">
+                <span>Start Your Project</span>
+                <span class="btn-arrow">→</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="section-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <span class="logo-icon">◆</span>
+                        <span>TechOl</span>
+                    </div>
+                    <p>Premium digital design & development studio delivering excellence</p>
+                    <div class="social-links-footer">
+                        <a href="#" class="social-link-footer" aria-label="LinkedIn">in</a>
+                        <a href="#" class="social-link-footer" aria-label="Instagram">ig</a>
+                        <a href="#" class="social-link-footer" aria-label="Twitter">tw</a>
+                        <a href="#" class="social-link-footer" aria-label="GitHub">gh</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="team.html">Team</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">Web Design</a></li>
+                        <li><a href="services.html">Development</a></li>
+                        <li><a href="services.html">Mobile Apps</a></li>
+                        <li><a href="services.html">E-Commerce</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="mailto:cvatechol@gmail.com">cvatechol@gmail.com</a></li>
+                        <li><a href="tel:+919549558023">+91 9549558023</a></li>
+                        <li><a href="contact.html">Contact Form</a></li>
+                        <li>Kota, Rajasthan</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 TechOl. All rights reserved.</p>
+                <p>Founded & Led by Vihaan Sankhla | Premium Digital Excellence</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>

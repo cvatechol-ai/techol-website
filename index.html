@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TechOl - Premium Tech Design & Development Studio. Digital Excellence Redefined. Award-winning digital solutions for modern businesses.">
+    <meta name="keywords" content="Web Design, Development, Mobile Apps, Digital Marketing, E-Commerce, Branding">
+    <meta name="author" content="Vihaan Sankhla">
+    <meta property="og:title" content="TechOl | Digital Excellence Redefined">
+    <meta property="og:description" content="Premium Tech Design & Development Studio">
+    <meta property="og:type" content="website">
+    <title>TechOl | Premium Tech Design & Development Studio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Poppins:wght@100;300;400;500;600;700;800;900&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='50' font-size='90' fill='%2300d4ff' text-anchor='middle' dominant-baseline='middle'>◆</text></svg>">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="gradient-sphere sphere-1"></div>
+        <div class="gradient-sphere sphere-2"></div>
+        <div class="gradient-sphere sphere-3"></div>
+        <div class="grid-bg"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">◆</span>
+                <span class="logo-text">TechOl</span>
+            </a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="pages/about.html" class="nav-link">About</a></li>
+                <li><a href="pages/services.html" class="nav-link">Services</a></li>
+                <li><a href="pages/portfolio.html" class="nav-link">Portfolio</a></li>
+                <li><a href="pages/team.html" class="nav-link">Team</a></li>
+                <li><a href="pages/pricing.html" class="nav-link">Pricing</a></li>
+                <li><a href="pages/contact.html" class="nav-link highlight">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="floating-code">{"innovation": "future"}</div>
+            <div class="floating-code" style="top: 20%; right: 10%;">{"tech": "excellence"}</div>
+            <div class="floating-code" style="bottom: 15%; left: 5%;">{"design": "power"}</div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-label">WELCOME TO THE FUTURE</div>
+            <h1 class="hero-title">
+                <span class="glitch" data-text="TECHOL">TECHOL</span>
+            </h1>
+            <div class="hero-tagline">
+                <h2>We Craft <span class="neon-cyan">Digital Experiences</span></h2>
+            </div>
+            <p class="hero-subtitle">Transform your vision into stunning, high-performance digital solutions that captivate audiences and drive extraordinary results</p>
+            <div class="hero-buttons">
+                <a href="pages/contact.html" class="btn btn-primary">
+                    <span>Start Your Project</span>
+                    <span class="btn-arrow">→</span>
+                </a>
+                <a href="pages/services.html" class="btn btn-secondary">
+                    <span>Explore Services</span>
+                    <span class="btn-arrow">→</span>
+                </a>
+            </div>
+        </div>
+        <div class="hero-stats">
+            <div class="stat-item">
+                <div class="stat-number">50+</div>
+                <div class="stat-label">Projects</div>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <div class="stat-number">30+</div>
+                <div class="stat-label">Clients</div>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <div class="stat-number">8+</div>
+                <div class="stat-label">Years</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Services -->
+    <section id="featured-services" class="services featured-section">
+        <div class="section-container">
+            <div class="section-label">WHAT WE DO</div>
+            <h2 class="section-title">Services that <span class="neon-cyan">Elevate</span> Your Brand</h2>
+            <p class="section-subtitle">Comprehensive web solutions tailored to your unique needs</p>
+
+            <div class="services-grid">
+                <!-- Service 1: Web Design -->
+                <div class="service-card glass-effect">
+                    <div class="service-icon-box">🎨</div>
+                    <h3>Web Design</h3>
+                    <p>Stunning, user-centric designs that capture your brand essence</p>
+                    <ul class="service-features">
+                        <li><span class="checkmark">✓</span> UI/UX Design</li>
+                        <li><span class="checkmark">✓</span> Responsive Layouts</li>
+                        <li><span class="checkmark">✓</span> Brand Identity</li>
+                    </ul>
+                    <a href="pages/services.html" class="service-link">Learn More →</a>
+                </div>
+
+                <!-- Service 2: Web Development -->
+                <div class="service-card glass-effect">
+                    <div class="service-icon-box">💻</div>
+                    <h3>Web Development</h3>
+                    <p>Fast, secure, scalable websites built with cutting-edge tech</p>
+                    <ul class="service-features">
+                        <li><span class="checkmark">✓</span> React & Vue.js</li>
+                        <li><span class="checkmark">✓</span> Node.js Backend</li>
+                        <li><span class="checkmark">✓</span> Database Design</li>
+                    </ul>
+                    <a href="pages/services.html" class="service-link">Learn More →</a>
+                </div>
+
+                <!-- Service 3: Mobile Apps -->
+                <div class="service-card glass-effect">
+                    <div class="service-icon-box">📱</div>
+                    <h3>Mobile Apps</h3>
+                    <p>Native and cross-platform applications users love</p>
+                    <ul class="service-features">
+                        <li><span class="checkmark">✓</span> iOS Development</li>
+                        <li><span class="checkmark">✓</span> Android Apps</li>
+                        <li><span class="checkmark">✓</span> Flutter/React Native</li>
+                    </ul>
+                    <a href="pages/services.html" class="service-link">Learn More →</a>
+                </div>
+            </div>
+
+            <div class="view-all">
+                <a href="pages/services.html" class="btn btn-outline-light">View All Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Preview -->
+    <section id="portfolio-preview" class="portfolio featured-section">
+        <div class="section-container">
+            <div class="section-label">OUR WORK</div>
+            <h2 class="section-title">Featured <span class="neon-cyan">Projects</span></h2>
+            <p class="section-subtitle">Recent work showcasing expertise and creativity</p>
+
+            <div class="portfolio-grid">
+                <!-- Project 1 -->
+                <div class="portfolio-item glass-effect">
+                    <div class="portfolio-image" style="background: linear-gradient(135deg, #0066ff 0%, #00d4ff 100%);"></div>
+                    <div class="portfolio-info">
+                        <h3>E-Commerce Platform</h3>
+                        <p>Modern marketplace with advanced payment integration</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="portfolio-item glass-effect">
+                    <div class="portfolio-image" style="background: linear-gradient(135deg, #0052cc 0%, #0066ff 100%);"></div>
+                    <div class="portfolio-info">
+                        <h3>SaaS Dashboard</h3>
+                        <p>Real-time analytics dashboard with comprehensive visualization</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Vue.js</span>
+                            <span class="tag">Firebase</span>
+                            <span class="tag">Charts.js</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="portfolio-item glass-effect">
+                    <div class="portfolio-image" style="background: linear-gradient(135deg, #003d99 0%, #0052cc 100%);"></div>
+                    <div class="portfolio-info">
+                        <h3>Mobile App Design</h3>
+                        <p>iOS & Android apps with seamless user experience</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Figma</span>
+                            <span class="tag">Flutter</span>
+                            <span class="tag">UX Design</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="view-all">
+                <a href="pages/portfolio.html" class="btn btn-outline-light">View All Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section id="why-us" class="why-us">
+        <div class="section-container">
+            <div class="section-label">WHY CHOOSE US</div>
+            <h2 class="section-title">Why Companies Trust <span class="neon-cyan">TechOl</span></h2>
+            
+            <div class="why-us-grid">
+                <div class="why-us-card">
+                    <div class="why-us-icon">🚀</div>
+                    <h3>Cutting-Edge Technology</h3>
+                    <p>We use the latest technologies and best practices to deliver superior solutions</p>
+                </div>
+                <div class="why-us-card">
+                    <div class="why-us-icon">🎯</div>
+                    <h3>Proven Results</h3>
+                    <p>50+ successful projects with measurable results and client satisfaction</p>
+                </div>
+                <div class="why-us-card">
+                    <div class="why-us-icon">⚡</div>
+                    <h3>Fast Turnaround</h3>
+                    <p>Efficient project management ensures timely delivery without compromising quality</p>
+                </div>
+                <div class="why-us-card">
+                    <div class="why-us-icon">🛡️</div>
+                    <h3>Secure & Reliable</h3>
+                    <p>Enterprise-grade security and 99.9% uptime guarantee for peace of mind</p>
+                </div>
+                <div class="why-us-card">
+                    <div class="why-us-icon">💬</div>
+                    <h3>24/7 Support</h3>
+                    <p>Dedicated support team available round the clock for your needs</p>
+                </div>
+                <div class="why-us-card">
+                    <div class="why-us-icon">🎨</div>
+                    <h3>Custom Solutions</h3>
+                    <p>Tailored solutions designed specifically for your business goals</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="testimonials">
+        <div class="section-container">
+            <div class="section-label">CLIENT TESTIMONIALS</div>
+            <h2 class="section-title">What Our Clients <span class="neon-cyan">Say</span></h2>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card glass-effect">
+                    <div class="testimonial-header">
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <p class="testimonial-text">"TechOl transformed our digital presence completely. Their team's expertise and dedication are unmatched. Highly recommended!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">RK</div>
+                        <div>
+                            <h4>Rajesh Kumar</h4>
+                            <p>CEO, Tech Startup India</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card glass-effect">
+                    <div class="testimonial-header">
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <p class="testimonial-text">"Exceptional service from start to finish. The team understood our vision and delivered beyond expectations. Worth every penny!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">PS</div>
+                        <div>
+                            <h4>Priya Sharma</h4>
+                            <p>Founder, Digital Ventures</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card glass-effect">
+                    <div class="testimonial-header">
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <p class="testimonial-text">"Professional, responsive, and innovative. TechOl is the perfect partner for anyone looking to level up their digital game."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">AJ</div>
+                        <div>
+                            <h4>Amit Jain</h4>
+                            <p>COO, E-Commerce Solutions</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="cta" class="cta-section">
+        <div class="section-container">
+            <h2>Ready to Transform Your Digital Presence?</h2>
+            <p>Let's create something extraordinary together</p>
+            <a href="pages/contact.html" class="btn btn-primary btn-large">
+                <span>Start Your Journey</span>
+                <span class="btn-arrow">→</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="section-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <span class="logo-icon">◆</span>
+                        <span>TechOl</span>
+                    </div>
+                    <p>Premium digital design & development studio delivering excellence</p>
+                    <div class="social-links-footer">
+                        <a href="#" class="social-link-footer" aria-label="LinkedIn">in</a>
+                        <a href="#" class="social-link-footer" aria-label="Instagram">ig</a>
+                        <a href="#" class="social-link-footer" aria-label="Twitter">tw</a>
+                        <a href="#" class="social-link-footer" aria-label="GitHub">gh</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="pages/about.html">About</a></li>
+                        <li><a href="pages/portfolio.html">Portfolio</a></li>
+                        <li><a href="pages/team.html">Team</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="pages/services.html">Web Design</a></li>
+                        <li><a href="pages/services.html">Development</a></li>
+                        <li><a href="pages/services.html">Mobile Apps</a></li>
+                        <li><a href="pages/services.html">E-Commerce</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="mailto:cvatechol@gmail.com">cvatechol@gmail.com</a></li>
+                        <li><a href="tel:+919549558023">+91 9549558023</a></li>
+                        <li><a href="pages/contact.html">Contact Form</a></li>
+                        <li>Kota, Rajasthan</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 TechOl. All rights reserved.</p>
+                <p>Founded & Led by Vihaan Sankhla | Premium Digital Excellence</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

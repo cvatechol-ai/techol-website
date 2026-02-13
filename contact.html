@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with TechOl - Contact us for your digital needs">
+    <title>Contact Us | TechOl</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Poppins:wght@100;300;400;500;600;700;800;900&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="gradient-sphere sphere-1"></div>
+        <div class="gradient-sphere sphere-2"></div>
+        <div class="gradient-sphere sphere-3"></div>
+        <div class="grid-bg"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="../index.html" class="logo">
+                <span class="logo-icon">◆</span>
+                <span class="logo-text">TechOl</span>
+            </a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="../index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                <li><a href="team.html" class="nav-link">Team</a></li>
+                <li><a href="pricing.html" class="nav-link">Pricing</a></li>
+                <li><a href="contact.html" class="nav-link highlight active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="section-container">
+            <h1 class="page-title">Get In Touch</h1>
+            <p class="page-subtitle">We're here to help with your digital needs</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-full">
+        <div class="section-container">
+            <div class="contact-wrapper-full">
+                <!-- Contact Form -->
+                <div class="contact-form-section">
+                    <h2 class="form-title">Send us a Message</h2>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+91 XXXXX XXXXX">
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Company Name</label>
+                            <input type="text" id="company" name="company" placeholder="Your Company">
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Interested In *</label>
+                            <select id="service" name="service" required>
+                                <option value="">Select Service</option>
+                                <option>Web Design</option>
+                                <option>Web Development</option>
+                                <option>Mobile Apps</option>
+                                <option>E-Commerce</option>
+                                <option>Digital Marketing</option>
+                                <option>Branding</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="budget">Budget Range</label>
+                            <select id="budget" name="budget">
+                                <option value="">Select Budget</option>
+                                <option>₹25,000 - ₹50,000</option>
+                                <option>₹50,000 - ₹100,000</option>
+                                <option>₹100,000 - ₹250,000</option>
+                                <option>₹250,000+</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Project Details *</label>
+                            <textarea id="message" name="message" placeholder="Tell us about your project..." rows="6" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-large">
+                            <span>Send Message</span>
+                            <span class="btn-arrow">→</span>
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-info-section">
+                    <h2 class="info-title">Contact Information</h2>
+                    
+                    <div class="info-block glass-effect">
+                        <div class="info-icon">📧</div>
+                        <div class="info-content">
+                            <h4>Email</h4>
+                            <a href="mailto:cvatechol@gmail.com">cvatechol@gmail.com</a>
+                            <p class="info-meta">Response within 24 hours</p>
+                        </div>
+                    </div>
+
+                    <div class="info-block glass-effect">
+                        <div class="info-icon">📱</div>
+                        <div class="info-content">
+                            <h4>Phone</h4>
+                            <a href="tel:+919549558023">+91 9549558023</a>
+                            <p class="info-meta">Mon - Sat, 10AM - 6PM IST</p>
+                        </div>
+                    </div>
+
+                    <div class="info-block glass-effect">
+                        <div class="info-icon">📍</div>
+                        <div class="info-content">
+                            <h4>Location</h4>
+                            <p>Kota, Rajasthan, India</p>
+                            <p class="info-meta">Business Address Available on Request</p>
+                        </div>
+                    </div>
+
+                    <div class="info-block glass-effect">
+                        <div class="info-icon">⏱️</div>
+                        <div class="info-content">
+                            <h4>Business Hours</h4>
+                            <p>Monday - Saturday: 10:00 AM - 6:00 PM IST</p>
+                            <p class="info-meta">Sunday: Closed</p>
+                        </div>
+                    </div>
+
+                    <h3 class="social-title">Connect With Us</h3>
+                    <div class="social-links-contact">
+                        <a href="#" class="social-link-large glass-effect" aria-label="LinkedIn">
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="#" class="social-link-large glass-effect" aria-label="Instagram">
+                            <span>Instagram</span>
+                        </a>
+                        <a href="#" class="social-link-large glass-effect" aria-label="Twitter">
+                            <span>Twitter</span>
+                        </a>
+                        <a href="#" class="social-link-large glass-effect" aria-label="GitHub">
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="section-container">
+            <h2 class="section-title">Visit Our Studio</h2>
+            <div class="map-container glass-effect">
+                <div class="map-placeholder">
+                    <div class="map-icon">📍</div>
+                    <p>Kota, Rajasthan, India</p>
+                    <p class="map-meta">Premium Digital Studio</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="contact-faq">
+        <div class="section-container">
+            <div class="section-label">FAQ</div>
+            <h2 class="section-title">Common <span class="neon-cyan">Questions</span></h2>
+            
+            <div class="faq-items">
+                <div class="faq-item-contact glass-effect">
+                    <h3>What's your typical project timeline?</h3>
+                    <p>Project timelines vary based on scope and complexity. Small websites take 2-4 weeks, while complex applications can take 2-3 months. We'll provide a detailed timeline during consultation.</p>
+                </div>
+
+                <div class="faq-item-contact glass-effect">
+                    <h3>Do you provide ongoing support?</h3>
+                    <p>Yes, we offer ongoing support and maintenance packages tailored to your needs. We ensure your solution remains secure, updated, and performing optimally.</p>
+                </div>
+
+                <div class="faq-item-contact glass-effect">
+                    <h3>How much does a website cost?</h3>
+                    <p>Costs vary based on complexity. Our packages start from ₹49,999 for basic websites and go up based on features and customization required.</p>
+                </div>
+
+                <div class="faq-item-contact glass-effect">
+                    <h3>Can you work with existing code?</h3>
+                    <p>Absolutely! We can work with existing codebases, refactor them, optimize performance, or add new features as needed.</p>
+                </div>
+
+                <div class="faq-item-contact glass-effect">
+                    <h3>What payment terms do you offer?</h3>
+                    <p>We typically work with 50% upfront payment and 50% on project completion. Custom payment plans are available for larger projects.</p>
+                </div>
+
+                <div class="faq-item-contact glass-effect">
+                    <h3>How do I get started?</h3>
+                    <p>Fill out the contact form above, and we'll reach out within 24 hours to discuss your project and requirements in detail.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="cta" class="cta-section">
+        <div class="section-container">
+            <h2>Ready to Transform Your Digital Presence?</h2>
+            <p>Let's start the conversation today</p>
+            <a href="#contactForm" class="btn btn-primary btn-large">
+                <span>Get Started Now</span>
+                <span class="btn-arrow">→</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="section-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <span class="logo-icon">◆</span>
+                        <span>TechOl</span>
+                    </div>
+                    <p>Premium digital design & development studio delivering excellence</p>
+                    <div class="social-links-footer">
+                        <a href="#" class="social-link-footer" aria-label="LinkedIn">in</a>
+                        <a href="#" class="social-link-footer" aria-label="Instagram">ig</a>
+                        <a href="#" class="social-link-footer" aria-label="Twitter">tw</a>
+                        <a href="#" class="social-link-footer" aria-label="GitHub">gh</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="team.html">Team</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">Web Design</a></li>
+                        <li><a href="services.html">Development</a></li>
+                        <li><a href="services.html">Mobile Apps</a></li>
+                        <li><a href="services.html">E-Commerce</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="mailto:cvatechol@gmail.com">cvatechol@gmail.com</a></li>
+                        <li><a href="tel:+919549558023">+91 9549558023</a></li>
+                        <li><a href="contact.html">Contact Form</a></li>
+                        <li>Kota, Rajasthan</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 TechOl. All rights reserved.</p>
+                <p>Founded & Led by Vihaan Sankhla | Premium Digital Excellence</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>
