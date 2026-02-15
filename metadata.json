@@ -1,0 +1,8 @@
+{
+  "name": "TechOl - Digital Excellence Redefined",
+  "description": "A premium tech design and development studio application featuring high-end animations, AI-powered project consulting, and a sleek glassmorphic UI.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
