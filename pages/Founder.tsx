@@ -89,12 +89,12 @@ const Team: React.FC = () => {
                    <div className="inline-block px-4 py-2 bg-purple-500/20 rounded-full border border-purple-500/30 text-purple-400 text-[9px] orbitron font-black uppercase tracking-widest mb-6">
                      Co-Founder & Creative Lead
                    </div>
-                   <h2 className="orbitron text-4xl font-black text-white uppercase mb-2">Chawlika Ahirwal</h2>
+                   <h2 className="orbitron text-4xl font-black text-white uppercase mb-2"></h2>
                    <div className="text-white/40 font-mono text-sm">Design & QA</div>
                 </div>
 
                 <p className="text-lg text-white/60 font-light leading-relaxed mb-10 flex-grow">
-                   Chawlika brings the human element to our digital logic. As the lead Graphical Designer and Tester, she ensures that every interface is intuitive, accessible, and visually striking.
+                  brings the human element to our digital logic. As the lead Graphical Designer and Tester, she ensures that every interface is intuitive, accessible, and visually striking.
                 </p>
 
                 <div className="space-y-6">
