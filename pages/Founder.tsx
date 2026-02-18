@@ -94,7 +94,7 @@ const Team: React.FC = () => {
                 </div>
 
                 <p className="text-lg text-white/60 font-light leading-relaxed mb-10 flex-grow">
-                  brings the human element to our digital logic. As the lead Graphical Designer and Tester, she ensures that every interface is intuitive, accessible, and visually striking.
+                  brings the human element to our digital logic. As the lead Graphical Designer and Tester, ensures that every interface is intuitive, accessible, and visually striking.
                 </p>
 
                 <div className="space-y-6">
